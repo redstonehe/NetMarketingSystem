@@ -1,0 +1,7 @@
+C:\develop\Bright\Bright\Bright.Data\bin\Debug\Bright.Data.dll.config
+C:\develop\Bright\Bright\Bright.Data\bin\Debug\Bright.Data.dll
+C:\develop\Bright\Bright\Bright.Data\bin\Debug\Bright.Data.pdb
+C:\develop\Bright\Bright\Bright.Data\bin\Debug\EntityFramework.dll
+C:\develop\Bright\Bright\Bright.Data\bin\Debug\EntityFramework.xml
+C:\develop\Bright\Bright\Bright.Data\obj\Debug\Bright.Data.dll
+C:\develop\Bright\Bright\Bright.Data\obj\Debug\Bright.Data.pdb

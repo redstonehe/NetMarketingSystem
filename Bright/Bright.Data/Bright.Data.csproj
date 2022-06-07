@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C399D46B-1F7E-4312-B47B-621273954145}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bright.Data</RootNamespace>
+    <AssemblyName>Bright.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\Bright.Res\Dll\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\BrightContext.cs" />
+    <Compile Include="Models\C_Account.cs" />
+    <Compile Include="Models\C_AccountType.cs" />
+    <Compile Include="Models\C_BankFilling.cs" />
+    <Compile Include="Models\C_Cash.cs" />
+    <Compile Include="Models\C_CashFlow.cs" />
+    <Compile Include="Models\C_Currency.cs" />
+    <Compile Include="Models\C_Recharge.cs" />
+    <Compile Include="Models\C_Transfer.cs" />
+    <Compile Include="Models\Mapping\C_AccountMap.cs" />
+    <Compile Include="Models\Mapping\C_AccountTypeMap.cs" />
+    <Compile Include="Models\Mapping\C_BankFillingMap.cs" />
+    <Compile Include="Models\Mapping\C_CashFlowMap.cs" />
+    <Compile Include="Models\Mapping\C_CashMap.cs" />
+    <Compile Include="Models\Mapping\C_CurrencyMap.cs" />
+    <Compile Include="Models\Mapping\C_RechargeMap.cs" />
+    <Compile Include="Models\Mapping\C_TransferMap.cs" />
+    <Compile Include="Models\Mapping\O_CommonMap.cs" />
+    <Compile Include="Models\Mapping\O_ExpressMap.cs" />
+    <Compile Include="Models\Mapping\O_OrderMap.cs" />
+    <Compile Include="Models\Mapping\O_ProductMap.cs" />
+    <Compile Include="Models\Mapping\O_TypeMap.cs" />
+    <Compile Include="Models\Mapping\P_CategoryMap.cs" />
+    <Compile Include="Models\Mapping\P_PackageMap.cs" />
+    <Compile Include="Models\Mapping\P_PriceMap.cs" />
+    <Compile Include="Models\Mapping\P_ProductMap.cs" />
+    <Compile Include="Models\Mapping\P_TeamProductMap.cs" />
+    <Compile Include="Models\Mapping\S_ScoreMap.cs" />
+    <Compile Include="Models\Mapping\S_SettleMap.cs" />
+    <Compile Include="Models\Mapping\S_Track2Map.cs" />
+    <Compile Include="Models\Mapping\U_AddressMap.cs" />
+    <Compile Include="Models\Mapping\U_AwardTitleHistoryMap.cs" />
+    <Compile Include="Models\Mapping\U_AwardTitleMap.cs" />
+    <Compile Include="Models\Mapping\U_BankMap.cs" />
+    <Compile Include="Models\Mapping\U_LoginLogMap.cs" />
+    <Compile Include="Models\Mapping\U_ManagerRelationMap.cs" />
+    <Compile Include="Models\Mapping\U_ParentRelationMap.cs" />
+    <Compile Include="Models\Mapping\U_PasswordMap.cs" />
+    <Compile Include="Models\Mapping\U_RankHistoryMap.cs" />
+    <Compile Include="Models\Mapping\U_RankMap.cs" />
+    <Compile Include="Models\Mapping\U_RankSendMap.cs" />
+    <Compile Include="Models\Mapping\U_TeamMap.cs" />
+    <Compile Include="Models\Mapping\U_UserInfoMap.cs" />
+    <Compile Include="Models\O_Common.cs" />
+    <Compile Include="Models\O_Express.cs" />
+    <Compile Include="Models\O_Order.cs" />
+    <Compile Include="Models\O_Product.cs" />
+    <Compile Include="Models\O_Type.cs" />
+    <Compile Include="Models\P_Category.cs" />
+    <Compile Include="Models\P_Package.cs" />
+    <Compile Include="Models\P_Price.cs" />
+    <Compile Include="Models\P_Product.cs" />
+    <Compile Include="Models\P_TeamProduct.cs" />
+    <Compile Include="Models\S_Score.cs" />
+    <Compile Include="Models\S_Settle.cs" />
+    <Compile Include="Models\S_Track2.cs" />
+    <Compile Include="Models\U_Address.cs" />
+    <Compile Include="Models\U_AwardTitle.cs" />
+    <Compile Include="Models\U_AwardTitleHistory.cs" />
+    <Compile Include="Models\U_Bank.cs" />
+    <Compile Include="Models\U_LoginLog.cs" />
+    <Compile Include="Models\U_ManagerRelation.cs" />
+    <Compile Include="Models\U_ParentRelation.cs" />
+    <Compile Include="Models\U_Password.cs" />
+    <Compile Include="Models\U_Rank.cs" />
+    <Compile Include="Models\U_RankHistory.cs" />
+    <Compile Include="Models\U_RankSend.cs" />
+    <Compile Include="Models\U_Team.cs" />
+    <Compile Include="Models\U_UserInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

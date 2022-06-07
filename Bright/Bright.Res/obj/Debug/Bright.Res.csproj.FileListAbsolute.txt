@@ -1,0 +1,4 @@
+C:\develop\Bright\Bright\Bright.Res\bin\Debug\Bright.Res.dll
+C:\develop\Bright\Bright\Bright.Res\bin\Debug\Bright.Res.pdb
+C:\develop\Bright\Bright\Bright.Res\obj\Debug\Bright.Res.dll
+C:\develop\Bright\Bright\Bright.Res\obj\Debug\Bright.Res.pdb

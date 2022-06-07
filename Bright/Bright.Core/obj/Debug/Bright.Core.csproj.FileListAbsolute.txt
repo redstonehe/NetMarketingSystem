@@ -1,0 +1,4 @@
+C:\develop\Bright\Bright\Bright.Core\bin\Debug\Bright.Core.dll
+C:\develop\Bright\Bright\Bright.Core\bin\Debug\Bright.Core.pdb
+C:\develop\Bright\Bright\Bright.Core\obj\Debug\Bright.Core.dll
+C:\develop\Bright\Bright\Bright.Core\obj\Debug\Bright.Core.pdb
